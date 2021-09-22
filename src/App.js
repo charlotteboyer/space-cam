@@ -17,7 +17,6 @@ function App() {
       dataResponse: 'JSON', 
       params: {
         api_key: 'AQjj0UlUJRDhtJ1SbKkDiknUfHPDxp0tfyHpamLC',
-        page: 1
       }
     }).then((res) => {
       console.log(res.data.photos);
